@@ -1,6 +1,6 @@
 ---
 name: List a Token
-about: List a token in Ubeswap's official token list.
+about: List a token in Node's official token list.
 title: ""
 labels: token-listing
 assignees: ""

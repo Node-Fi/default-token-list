@@ -1,6 +1,6 @@
 import probe from "probe-image-size";
 import fs from "fs";
-import tokenList from "../ubeswap-experimental.token-list.json";
+import tokenList from "../node-experimental.token-list.json";
 
 console.info("Validating Image Type and Sizes");
 
@@ -8,7 +8,7 @@ function validateList(list: typeof tokenList) {
   const NEED_RESIZING: string[] = [];
   list.tokens.forEach((token) => {
     const relative = token.logoURI.replace(
-      "https://raw.githubusercontent.com/ubeswap/default-token-list/master/",
+      "https://raw.githubusercontent.com/node/default-token-list/master/",
       "./"
     );
     const image = fs.readFileSync(relative);

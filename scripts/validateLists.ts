@@ -1,13 +1,13 @@
-import ubeswapList from "../ubeswap.token-list.json";
-import ubeswapExperimentalList from "../ubeswap-experimental.token-list.json";
+import nodeList from "../node.token-list.json";
+import nodeExperimentalList from "../node-experimental.token-list.json";
 import { TokenList } from "@uniswap/token-lists";
 import schema from "@uniswap/token-lists/src/tokenlist.schema.json";
 import Ajv, { Schema } from "ajv";
 import addFormats from "ajv-formats";
 import deepmerge from "deepmerge";
 
-export const defaultList: TokenList = ubeswapList;
-export const experimental: TokenList = ubeswapExperimentalList;
+export const defaultList: TokenList = nodeList;
+export const experimental: TokenList = nodeExperimentalList;
 
 const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);

@@ -1,10 +1,10 @@
 {
-  "name": "@ubeswap/default-token-list",
+  "name": "@node-fi/default-token-list",
   "version": "4.1.42",
-  "description": "Ubeswap default token list",
-  "main": "ubeswap.token-list.json",
-  "repository": "git@github.com:ubeswap/default-token-list.git",
-  "author": "Ian Macalinao <ian@ubeswap.org>",
+  "description": "Node default token list",
+  "main": "node.token-list.json",
+  "repository": "git@github.com:nodefi/default-token-list.git",
+  "author": "Dylan Mooers <dylan@thenode.fi>",
   "license": "MIT",
   "devDependencies": {
     "@ethersproject/address": "^5.4.0",
@@ -33,8 +33,8 @@
     "prepare": "husky install"
   },
   "files": [
-    "ubeswap.token-list.json",
-    "ubeswap-experimental.token-list.json"
+    "node.token-list.json",
+    "node-experimental.token-list.json"
   ],
   "prettier": {}
 }
