@@ -8,7 +8,8 @@ import { requireOrNull } from "./utils/requireOrNull";
 
 const version = packageJSON.version.split(".");
 
-const LOGO_URI_BASE = "https://github.com/Node-Fi/default-token-list/master";
+const LOGO_URI_BASE =
+  "https://raw.githubusercontent.com/Node-Fi/default-token-list/master";
 
 const makeTokenList = (
   previousTokenList: TokenList | null,

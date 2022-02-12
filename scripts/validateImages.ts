@@ -8,7 +8,7 @@ function validateList(list: typeof tokenList) {
   const NEED_RESIZING: string[] = [];
   list.tokens.forEach((token) => {
     const relative = token.logoURI.replace(
-      "https://raw.githubusercontent.com/node/default-token-list/master/",
+      "https://raw.githubusercontent.com/Node-Fi/default-token-list/master/",
       "./"
     );
     const image = fs.readFileSync(relative);
