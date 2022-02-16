@@ -1,9 +1,9 @@
 {
   "name": "@node-fi/default-token-list",
-  "version": "4.1.42",
+  "version": "4.1.43",
   "description": "Node default token list",
   "main": "node.token-list.json",
-  "repository": "git@github.com:nodefi/default-token-list.git",
+  "repository": "git@github.com:Node-Fi/default-token-list.git",
   "author": "Dylan Mooers <dylan@thenode.fi>",
   "license": "MIT",
   "devDependencies": {
