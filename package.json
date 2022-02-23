@@ -1,6 +1,6 @@
 {
   "name": "@node-fi/default-token-list",
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "Node default token list",
   "main": "node.token-list.json",
   "repository": "git@github.com:Node-Fi/default-token-list.git",
