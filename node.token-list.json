@@ -2,7 +2,7 @@
   "name": "Unknown List",
   "logoURI": "https://raw.githubusercontent.com/Node-Fi/default-token-list/master/logo.svg",
   "keywords": ["celo", "node", "defi"],
-  "timestamp": "2022-03-06T20:04:23.765Z",
+  "timestamp": "2022-03-06T20:05:17.773Z",
   "tokens": [
     {
       "address": "0x00400FcbF0816bebB94654259de7273f4A05c762",
@@ -456,6 +456,6 @@
   "version": {
     "major": 4,
     "minor": 1,
-    "patch": 6
+    "patch": 7
   }
 }
