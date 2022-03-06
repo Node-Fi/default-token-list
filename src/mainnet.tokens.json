@@ -221,6 +221,11 @@
     "symbol": "PREMIO"
   },
   {
+    "address": "0x9802d866fdE4563d088a6619F7CeF82C0B991A55",
+    "name": "Moola cREAL",
+    "symbol": "mcREAL"
+  },
+  {
     "address": "0x9Ee153D4Fdf0E3222eFD092c442ebB21DFd346AC",
     "name": "Marzipan Finance",
     "symbol": "MZPN",
@@ -332,6 +337,11 @@
     "address": "0xE74AbF23E1Fdf7ACbec2F3a30a772eF77f1601E1",
     "name": "Poof v1 CELO",
     "symbol": "pCELOxV1"
+  },
+  {
+    "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+    "name": "Celo Real",
+    "symbol": "cREAL"
   },
   {
     "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
